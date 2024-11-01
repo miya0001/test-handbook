@@ -15,6 +15,6 @@ copyright: Copyright &copy; 2016 - 2024 Martin Donath
 
 theme:
   name: material
-  # custom_dir: material/overrides
+  custom_dir: material/overrides
   nav:
    - Home: index.md
