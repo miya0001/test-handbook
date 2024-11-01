@@ -18,50 +18,19 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-# -----------------------------------------------------------------------------
-# Node, TypeScript, Python
-# -----------------------------------------------------------------------------
+# Top-level config
+root = true
 
-# Dependencies
-node_modules
-__pycache__
-venv
-.venv
+# All files
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
 
-# Build files
-build
-site
-
-# Distribution files
-dist
-mkdocs_material.egg-info
-
-# Caches and logs
-*.cpuprofile
-*.log
-*.tsbuildinfo
-.cache
-.eslintcache
-__pycache__
-
-# Examples
-example
-example.zip
-
-# -----------------------------------------------------------------------------
-# General
-# -----------------------------------------------------------------------------
-
-# Never ignore .gitkeep files
-!**/.gitkeep
-
-# macOS internals
-.DS_Store
-
-# Temporary files
-TODO
-tmp
-
-# IDEs & Editors
-.idea
-*~
+# Python
+[*.py]
+indent_style = space
+indent_size = 4
