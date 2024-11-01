@@ -1,3 +1,4 @@
 site_name: Geolonia Handbook
 theme:
   name: material
+  custom_dir: material/overrides
